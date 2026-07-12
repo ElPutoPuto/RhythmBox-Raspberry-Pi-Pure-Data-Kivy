@@ -2,6 +2,8 @@
 
 # Rhythm Box
 
+![Rhythm Box](images/Kivy-interface.png)
+
 Rhythm Box is a drum machine developed as a personal project using **Python**, **Pure Data**, and **Raspberry Pi**.
 
 The project currently includes two versions:
