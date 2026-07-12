@@ -1,5 +1,3 @@
-# RhythmBox-Raspberry-Pi-Pure-Data-Kivy
-
 # Rhythm Box
 
 ![Rhythm Box](images/Kivy-interface.png)
