@@ -1,0 +1,15 @@
+#N canvas 326 145 947 592 12;
+#X obj 308 248 nbx 8 14 0 1e+37 0 0 empty empty empty 0 -8 0 10 #dcdcdc #000000 #000000 0 256;
+#X text 398 247 frequency in Hz;
+#X obj 200 281 else/downsample~;
+#X obj 199 155 inlet~;
+#X obj 202 354 outlet~;
+#X obj 307 151 inlet;
+#X text 547 246 AL MAXIMO -> INALTERADA;
+#X obj 307 188 expr 44100-($f1*44090);
+#X text 488 186 44090 para que no llegue a 0;
+#X connect 0 0 2 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 5 0 7 0;
+#X connect 7 0 0 0;

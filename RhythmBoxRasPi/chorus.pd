@@ -1,0 +1,11 @@
+#N canvas 192 192 1127 630 12;
+#X text 290 130 dry/wet;
+#X obj 165 154 inlet~;
+#X obj 166 253 outlet~;
+#X obj 294 161 inlet;
+#X text 478 206 dejar rate y depth fijos y valiar solo dry/wet;
+#X text 490 148 si dry/wet esta a 0 pasa limpio;
+#X obj 165 202 else/chorus~ 0.7 5, f 19;
+#X connect 1 0 6 0;
+#X connect 3 0 6 3;
+#X connect 6 0 2 0;

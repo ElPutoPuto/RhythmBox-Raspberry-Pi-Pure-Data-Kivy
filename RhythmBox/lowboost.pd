@@ -1,0 +1,16 @@
+#N canvas 0 0 1278 1316 12;
+#X obj 278 158 inlet~ audio;
+#X obj 339 423 outlet~ audio;
+#X msg 352 280 bypass \$1;
+#X text 718 351 toquetear quiza;
+#X obj 441 150 inlet;
+#X obj 426 198 expr $f1*15;
+#X obj 384 240 == 0;
+#X obj 338 347 else/lowshelf~ 2500 0.5 0;
+#X connect 0 0 7 0;
+#X connect 2 0 7 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 5 0 7 3;
+#X connect 6 0 2 0;
+#X connect 7 0 1 0;

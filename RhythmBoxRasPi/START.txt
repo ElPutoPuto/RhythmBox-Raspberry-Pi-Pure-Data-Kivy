@@ -1,0 +1,11 @@
+-----terminal 1------   (main 2 o 3 have less CPU usage)
+
+pd -rt -nogui -noadc -alsa -audiobuf 50  /home/pi/Desktop/RhythmBoxRasPi/Main.pd
+
+----terminal 2----
+
+source osc-env/bin/activate
+
+
+python /home/pi/Desktop/RhythmBoxRasPi/raspi_control.py
+

@@ -1,0 +1,11 @@
+#N canvas 870 288 1694 960 12;
+#X obj 282 231 inlet~;
+#X obj 307 452 outlet~;
+#X msg 433 284 wet \$1;
+#X obj 433 237 inlet;
+#X obj 301 387 else/free.rev~ 0.5 0.5 1 0;
+#X connect 0 0 4 0;
+#X connect 0 0 4 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 4 0 1 0;

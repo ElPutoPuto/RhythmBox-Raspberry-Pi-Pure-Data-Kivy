@@ -1,0 +1,14 @@
+#N canvas 64 64 977 730 12;
+#X obj 185 192 else/pan2~;
+#X obj 252 61 inlet;
+#X obj 156 72 inlet~;
+#X obj 159 249 outlet~;
+#X floatatom 252 102 5 0 0 0 - - - 0;
+#X obj 263 247 outlet~;
+#X obj 253 144 else/f2s~;
+#X connect 0 0 3 0;
+#X connect 0 1 5 0;
+#X connect 1 0 4 0;
+#X connect 2 0 0 0;
+#X connect 4 0 6 0;
+#X connect 6 0 0 1;

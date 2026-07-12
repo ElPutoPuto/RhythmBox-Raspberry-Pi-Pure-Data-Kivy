@@ -1,0 +1,10 @@
+#N canvas 256 256 966 552 12;
+#X text 311 110 coefficient;
+#X obj 194 133 inlet~;
+#X obj 193 249 outlet~;
+#X text 481 190 si se añade -tri hace flanger en forma triangular;
+#X obj 352 145 inlet;
+#X obj 194 186 else/flanger~ 5 20 -tri;
+#X connect 1 0 5 0;
+#X connect 4 0 5 3;
+#X connect 5 0 2 0;

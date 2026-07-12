@@ -1,0 +1,13 @@
+#N canvas 736 165 1514 804 12;
+#X obj 164 222 inlet~;
+#X obj 225 435 outlet~;
+#X msg 257 296 thresh \$1;
+#X text 589 102 SAMPLES YA VENDRAN COMPRIMIDOS EN PRINCIPIO \, NO ES NECESARIO COMPRESS? quiza ponerlo por si se descontrola el sonido con los efectos;
+#X obj 225 354 else/compress~ -20 4 5 50 1 256;
+#X obj 260 221 inlet;
+#X obj 256 255 expr $f1*(-50);
+#X connect 0 0 4 0;
+#X connect 2 0 4 0;
+#X connect 4 0 1 0;
+#X connect 5 0 6 0;
+#X connect 6 0 2 0;
