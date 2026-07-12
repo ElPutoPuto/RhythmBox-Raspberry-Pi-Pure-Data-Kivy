@@ -1,3 +1,0 @@
-OPEN  main.pd
-
-open rhythm_boxPC-PC, use ip 127.0.0.1
