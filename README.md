@@ -30,6 +30,7 @@ The project currently includes two versions:
 * Hardware control support
 * OSC communication
 * Real-time pattern editing
+* 12 FXs
 
 ## Technologies
 
